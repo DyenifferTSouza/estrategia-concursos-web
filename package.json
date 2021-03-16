@@ -1,0 +1,19 @@
+{
+    "name":"estrategia-concursos-web",
+    "version":"1.0.0",
+    "description":"",
+    "main":"index.js",
+    
+    "scripts": {
+        "test:chrome": "cypress run --browser chrome --no-exit"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+    }
+   
+
+}
