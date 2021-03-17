@@ -8,10 +8,7 @@ Given("acesso o site Estratégia Concursos", () => {
 })
 
 When("acesso a página inicial", () => {
-    //cy.get - busca um elemento
-    // .type insere um texto
     cy.title().should('contain', 'Estratégia Concursos')
-  
 })
 
 Then("devo visualizar a página inicial do site ", () => {
