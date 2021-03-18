@@ -1,19 +1,20 @@
 {
-    "name":"estrategia-concursos-web",
-    "version":"1.0.0",
-    "description":"",
-    "main":"index.js",
-    
+    "name": "estrategia-concursos-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
     "scripts": {
-        "test:chrome": "cypress run --browser chrome --no-exit"
+        "test:chrome": "cypress run --browser chrome",
+        "cy": "cypress open"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    
     "cypress-cucumber-preprocessor": {
         "step_definitions": "cypress/support/steps"
+    },
+    "dependencies": {
+        "cypress": "^6.7.1",
+        "cypress-cucumber-preprocessor": "^4.0.1"
     }
-   
-
 }
